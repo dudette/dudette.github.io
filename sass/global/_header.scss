@@ -1,0 +1,34 @@
+#header {
+  padding: 15px 0 15px 0;
+
+  .wrapper {
+    @include outer-container();
+
+    #logo {
+      @include span-columns(4 of 15);
+      font-size: 24px;
+      line-height: 20px;
+      color: $pink;
+
+      @include media($tablet) {
+        @include span-columns(10 of 15);
+      }
+    }
+
+    #menu {
+      float: right;
+
+      li {
+        display: block;
+        float: left;
+        margin-right: 6px;
+        color: $base-font-color;
+        text-align: center;
+
+        &.active {
+          color: $orange;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,20 @@
+@mixin gradient($border) {
+
+  @if $border == about {
+    background: $pink;
+  }
+
+  @if $border == portfolio {
+    // background: $light-orange;
+    background-image: -moz-linear-gradient(left, $light-orange 20%, $pink 100%);
+    background-image: -webkit-linear-gradient(left, $light-orange 20%, $pink 100%);
+    background-image: linear-gradient(left, $light-orange 20%, $pink 100%);
+  }
+
+  @if $border == contact {
+    //background: $pink;
+    background-image: -moz-linear-gradient(left, $light-orange 20%, $pink 100%);
+    background-image: -webkit-linear-gradient(left, $pink 20%, $light-orange 100%);
+    background-image: linear-gradient(left, $light-orange 20%, $pink 100%);
+  }
+}

@@ -1,0 +1,55 @@
+@import "bourbon", "neat";
+
+@import "reset", "variables", "mixins";
+
+
+body {
+  font-family: 'Lato', sans-serif;
+  font-size: $base-font-size;
+  line-height: $line-height;
+}
+
+pre,
+code,
+kbd,
+samp,
+tt,
+var {
+  font-family: 'Lato', sans-serif;
+}
+
+h1 {
+  font-size: $base-font-size * 2;
+  line-height: $base-font-size * 3;
+}
+
+h2 {
+  font-size: $base-font-size * 1.5;
+  line-height: $base-font-size * 2.5;
+}
+
+h3 {
+  font-size: $base-font-size * 1.3;
+}
+
+@each $border in about, portfolio, contact {
+  h2##{$border}-border {
+    @include gradient(#{$border});
+    padding: $border-padding;
+    color: #fff;
+    text-transform: uppercase;
+  }
+}
+
+pre {
+  font-size: $base-font-size + 1; // Monospace skrivs ut något mindre
+}
+
+a {
+  text-decoration: none;
+  color: $base-font-color;
+}
+
+@import "global/header", "global/footer";
+
+@import "content/front", "content/about", "content/projects", "content/contact";

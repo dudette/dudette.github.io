@@ -1,0 +1,46 @@
+#footer {
+  background: $orange;
+
+  .social-box {
+    text-align: center;
+    padding: 10px 0 10px 0;
+
+    .social-media {
+      display: inline-block;
+      list-style:none;
+      overflow: hidden;
+
+      li {
+        float: left;
+        margin-right: 15px;
+
+        &.twitter {
+          a {
+            background: url("../img/graphics/icons/twitter-white.png") 1px no-repeat;
+            height: 32px;
+            width: 32px;
+            display: block;
+          }
+
+        }
+        &.instagram {
+          a {
+            background: url("../img/graphics/icons/instagram-white.png") 1px no-repeat;
+            height: 32px;
+            width: 32px;
+            display: block;
+          }
+
+        }
+        &.mail {
+          a {
+            background: url("../img/graphics/icons/mail-white.png") 1px no-repeat;
+            height: 32px;
+            width: 32px;
+            display: block;
+          }
+        }
+      }
+    }
+  }
+}
