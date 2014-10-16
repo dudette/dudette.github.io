@@ -5,9 +5,6 @@ $( document ).ready(function() {
   });
 
   //SVGMagic
-  $('img.case').svgmagic({
-     forceReplacements: true,
-     additionalRequestData: true
-  });
+  $('img.case').svgmagic();
 
 });
