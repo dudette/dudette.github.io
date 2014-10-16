@@ -4,4 +4,10 @@ $( document ).ready(function() {
     $(this).addClass('active');
   });
 
+  //SVGMagic
+  $('img.case').svgmagic({
+     forceReplacements: true,
+     additionalRequestData: true
+  });
+
 });
