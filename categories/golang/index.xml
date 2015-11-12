@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+      <title>Golang on hello </title>
+      <generator uri="https://gohugo.io">Hugo</generator>
+    <link>http://localhost:1313/categories/golang/</link>
+    <language>en-us</language>
+    
+    
+    <updated>Thu, 12 Nov 2015 22:18:49 CET</updated>
+    
+    <item>
+      <title>jo</title>
+      <link>http://localhost:1313/post/jo/</link>
+      <pubDate>Thu, 12 Nov 2015 22:18:49 CET</pubDate>
+      
+      <guid>http://localhost:1313/post/jo/</guid>
+      <description>&lt;p&gt;Your live on Github Pages&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>test</title>
+      <link>http://localhost:1313/post/test/</link>
+      <pubDate>Thu, 12 Nov 2015 21:06:56 CET</pubDate>
+      
+      <guid>http://localhost:1313/post/test/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ugly	</title>
+      <link>http://localhost:1313/post/welcome/</link>
+      <pubDate>Thu, 12 Nov 2015 21:03:27 CET</pubDate>
+      
+      <guid>http://localhost:1313/post/welcome/</guid>
+      <description>
+
+&lt;h1 id=&#34;hello-world:2cc7dc244eed4480e8b46c91e911e96b&#34;&gt;hello world&lt;/h1&gt;
+
+&lt;p&gt;Lorem ipsum dolor sans&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
