@@ -3,5 +3,9 @@ languageCode = "en-us"
 title = "Dudettes"
 theme = "material-design"
 contentdir = "content"
+indexes = [
+	category = "categories"
+	post = "post"
+]
 layoutdir = "layouts"
 publishdir = "public"
