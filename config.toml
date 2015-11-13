@@ -1,4 +1,7 @@
-baseurl = "http://replace-this-with-your-hugo-site.com/"
+baseurl = "http://dudette.github.io/public"
 languageCode = "en-us"
 title = "Dudettes"
 theme = "material-design"
+contentdir = "content"
+layoutdir = "layouts"
+publishdir = "public"
