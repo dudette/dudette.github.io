@@ -1,4 +1,4 @@
-baseurl = "http =//dudette.github.io/public"
+baseurl = "http://dudette.github.io/public"
 languageCode = "en-us"
 title = "Dudettes"
 theme = "material-design"
