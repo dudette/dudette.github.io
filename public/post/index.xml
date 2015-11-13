@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Dudettes</title>
-    <link>http://dudette.github.io/public/post/</link>
+    <link>http%20=/dudette.github.io/public/post/</link>
     <description>Recent content in Posts on Dudettes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 13 Nov 2015 18:24:50 +0100</lastBuildDate>
-    <atom:link href="http://dudette.github.io/public/post/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http%20=/dudette.github.io/public/post/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>firstone</title>
-      <link>http://dudette.github.io/public/post/firstone/</link>
+      <link>/http%20=/dudette.github.io/public/post/firstone/</link>
       <pubDate>Fri, 13 Nov 2015 18:24:50 +0100</pubDate>
       
-      <guid>http://dudette.github.io/public/post/firstone/</guid>
+      <guid>/http%20=/dudette.github.io/public/post/firstone/</guid>
       <description>&lt;p&gt;THIS IS A STORY THAT ENDS EARLY&lt;/p&gt;
 </description>
     </item>

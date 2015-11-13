@@ -1,0 +1,11 @@
+baseurl = "http =//dudette.github.io/public"
+languageCode = "en-us"
+title = "Dudettes"
+theme = "material-design"
+contentdir = "content"
+layoutdir = "layouts"
+publishdir = "public"
+
+[indexes] 
+  category = "categories"
+  post = "post"
